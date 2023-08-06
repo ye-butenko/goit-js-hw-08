@@ -28,6 +28,7 @@ function inputForm() {
   const currentData = getFormData();
   updateLocalStorage(currentData);
 }
+
 function updateLocalStorage(data) {
   localStorage.setItem(DATA_KEY, JSON.stringify(data));
 }
